@@ -50,10 +50,10 @@ def resolve_dir(candidates):
 
 
 DATA_DIR = resolve_dir([
-    "data/raw",                      # چیدمان مسطح کنار اسکریپت
-    "../data/raw",                   # چیدمان لوکال قبلی (اسکریپت داخل app/)
-    "../data/raw/CMAPSSData",        # چیدمان کامل پروژه با پوشه‌ی دانلودی اصلی
+    "../data/raw/CMAPSSData",
     "data/raw/CMAPSSData",
+    "../data/raw",
+    "data/raw",
 ])
 ARTIFACTS_DIR = resolve_dir([
     "artifacts",
